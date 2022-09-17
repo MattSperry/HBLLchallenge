@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(245, 242, 242);
+  font-family: sans-serif;
+}
+
+.faq {
+  position: relative;
+  left: 250px;
+  width: 600px;
+  border-bottom: 1px solid #c4c4c4;
+  padding-bottom: 15px;
+  font-weight: lighter;
+}
+
+.box {
+  position: absolute;
+  top: 114px;
+  left: 114px;
+  bottom: 100px;
+  width: 1100px;
+  padding-right: 5px;
+  background-color: white;
+  box-shadow: 5px;
+  border: 1px solid #c4c4c4;
+}
+
+.menu {
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  width: 600px;
+  height: 50px;
+  box-shadow: 0px 3px 6px darkgray;
+  border-radius: 5px;
+  margin-top: 15px;
+  position: relative;
+  left: 250px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* darken on hover */
+.menu:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* set content as invisible */
+.content {
+  display: none;
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  width: 598px;
+  height: 50px;
+  box-shadow: 0px 3px 6px darkgray;
+  border-radius: 0px 0px 5px 5px;
+  position: relative;
+  left: 250px;
+  text-align: left;
+  font-size: small;
+}
+
+.display {
+  font-family: Arial;
+  font-size: 30px;
+  color: #2e4481;
+  position: absolute;
+  left: 570px;
+}
